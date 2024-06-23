@@ -1,7 +1,7 @@
 import telebot as tb
 from time import sleep,time
 from random import randint
-bot = tb.TeleBot('7338410225:AAG7ZSpIzyfnbglYftT3FaB85DEMmJCrp9w')
+bot = tb.TeleBot('')
 adlist = bot.get_chat_administrators(-1002005260221)
 @bot.message_handler(content_types=['text'])
 def getting_message(message):
